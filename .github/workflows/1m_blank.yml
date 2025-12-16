@@ -1,0 +1,11 @@
+name: Wait 1m
+
+on:
+  workflow_dispatch:
+
+jobs:
+  wait:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for 1 minute
+        run: sleep 60
