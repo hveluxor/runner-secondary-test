@@ -2,10 +2,9 @@ name: Wait 1m30s
 
 on:
   workflow_dispatch:
-
 jobs:
   wait:
-    runs-on: ubuntu-latest
+    runs-on: tenki-staging-standard-autoscale
     steps:
       - name: Wait for 1 minute and 30 seconds
         run: sleep 90
