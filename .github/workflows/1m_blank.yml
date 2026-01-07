@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   wait:
-    runs-on: tenki-standard-autoscale
+    runs-on: tenki-standard-medium-4c-8g
     steps:
       - name: Wait for 1 minute
         run: sleep 60
